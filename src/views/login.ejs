@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>LSMG - Login</title>
+        <style>* { margin: 0; padding: 0; box-sizing: border-box; }</style>
+        <link rel="stylesheet" href="./css/loginAndRegister.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body style="background-color: #1d1d1d;">
+        <script>const page = '<%- page %>';</script>
+        <script src="./js/verifyLogin.js"></script>
+        <script src="./js/loginPage.js"></script>
+        <section class="login">
+            <div class="embed" style="background-color: #36393f;">
+                <div>
+                    <h2 class="network-name">LSMG</h2>
+                    <input type="email" autocomplete="off" placeholder="Email">
+                    <input type="password" autocomplete="off" placeholder="Senha">
+                    <div class="error"></div>
+                    <div>
+                        <button class="enter-button" onclick="vl2()">
+                            <ion-icon name="log-in-outline"></ion-icon> Entrar
+                        </button>
+                    </div>
+                    <br>
+                    <p class="create_account">Não tem uma conta? <a href="register">Crie uma!</a></p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

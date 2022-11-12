@@ -1,0 +1,83 @@
+.contact {
+    width: 300px;
+    height: 100vh;
+    border-right: #ccc 1px solid;
+}
+
+.message-conteiner {
+    width: calc(100% - 300px);
+    height: 100vh;
+}
+
+.screen {
+    display: flex;
+}
+
+.contato {
+    width: 100%;
+    height: 80px;
+    border-bottom: #666 1px solid;
+    display: flex;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.contato:hover {
+    background-color: #44f2;
+}
+
+.contato .name {
+    color: #fff;
+    font-family: 'Roboto condensed', calibri;
+    font-size: 24px;
+}
+
+.contato .lastMsg {
+    color: #ccc;
+    font-family: 'Roboto', calibri;
+    font-size: 18px;
+}
+
+.align-items {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.contato ion-icon#user {
+    color: #fff;
+    font-size: 60px;
+}
+
+.top-list-header {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    padding-right: 10px;
+    border-bottom: #666 1px solid;
+}
+
+.top-list-header button#add {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 5px 16px;
+    background: linear-gradient(#0b0, #080);
+    border: none;
+    color: #fff;
+    font-family: 'Roboto Condensed', calibri;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.top-list-header button#add:hover {
+    background: #080;
+}
+
+.top-list-header button#add ion-icon {
+    padding-right: 5px;
+}
